@@ -32,7 +32,7 @@ export default function Home() {
         <div className={styles.grid}>
           <button onClick={toggleIsOn} className={styles.card}>
             <h3>Red Button</h3>
-            <p>Roses are red, buttons are blue, choose a deployment that best works for you</p>
+            <p>Roses are red, buttons were blue, choose a deployment that best works for you</p>
           </button>
         </div>
 
