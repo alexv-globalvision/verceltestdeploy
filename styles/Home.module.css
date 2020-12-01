@@ -85,18 +85,18 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: white;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  background: #4287f5; 
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  border: 2px solid #4287f5; 
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.card:hover {
+  color: #4287f5;
+  background: white;
+  cursor: pointer; 
+  border: 2px solid #4287f5; 
 }
 
 .card h3 {
@@ -110,6 +110,11 @@
   line-height: 1.5;
 }
 
+.clickText {
+  color: #4287f5; 
+  font-size: 20px; 
+}
+
 .logo {
   height: 1em;
 }
@@ -119,4 +124,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.card:focus {
+  outline: none; 
 }
