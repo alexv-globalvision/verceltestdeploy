@@ -87,16 +87,16 @@
   text-align: left;
   color: white;
   text-decoration: none;
-  background: #4287f5; 
+  background: #eb4034; 
   border-radius: 10px;
-  border: 2px solid #4287f5; 
+  border: 2px solid #eb4034; 
 }
 
 .card:hover {
-  color: #4287f5;
+  color: #eb4034;
   background: white;
   cursor: pointer; 
-  border: 2px solid #4287f5; 
+  border: 2px solid #eb4034; 
 }
 
 .card h3 {
@@ -111,7 +111,7 @@
 }
 
 .clickText {
-  color: #4287f5; 
+  color: #eb4034; 
   font-size: 20px; 
 }
 
