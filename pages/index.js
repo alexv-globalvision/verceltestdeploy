@@ -26,18 +26,18 @@ export default function Home() {
         <h1 className={styles.title}>Vercel Test Deployment</h1>
 
         <p className={styles.description}>
-          Check out this button, now it's blue.
+          Check out this button, now it's red.
         </p>
 
         <div className={styles.grid}>
           <button onClick={toggleIsOn} className={styles.card}>
-            <h3>Blue Button</h3>
-            <p>I'm blue, dah-boo-dee-dah-boo-dai</p>
+            <h3>Red Button</h3>
+            <p>Roses are red, buttons are blue, choose a deployment that best works for you</p>
           </button>
         </div>
 
         <>
-          {isOn ? <p className={styles.clickText}>You clicked the blue button!</p> : <p className={styles.clickText}>&nbsp;</p>}
+          {isOn ? <p className={styles.clickText}>You clicked the red button!</p> : <p className={styles.clickText}>&nbsp;</p>}
         </>
         
       </main>
